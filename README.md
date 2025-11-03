@@ -31,3 +31,9 @@ The app sends the query to the backend (FastAPI) and displays matched results wi
 - clone github repo
 - run docker compose up --build
 
+---
+
+## 🤝 Acknowledgement
+
+Some parts of this project (such as code formatting, mock data generate, documentation writing) were assisted by **ChatGPT (OpenAI)**  
+
