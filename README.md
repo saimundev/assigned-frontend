@@ -29,5 +29,5 @@ The app sends the query to the backend (FastAPI) and displays matched results wi
 ## Run Project
 
 - clone github repo
-- run docker compose up
+- run docker compose up --build
 
