@@ -2,8 +2,6 @@ import { getLocalStorage, removeLocalStorage } from "@/utils/localStorage";
 import axios from "axios";
 const baseURL = import.meta.env.VITE_API_BASE_URL;
 
-console.log("Env var:", import.meta.env.VITE_API_BASE_URL);
-
 const api = axios.create({
   baseURL,
 });

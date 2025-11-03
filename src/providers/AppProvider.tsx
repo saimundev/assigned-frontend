@@ -14,11 +14,10 @@ const queryClient = new QueryClient({
 });
 
 export const AppProviders = ({ children }: { children: ReactNode }) => {
-  console.log("Env var:", import.meta.env.VITE_API_BASE_URL);
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <Sonner position="top-center"/>
+        <Sonner position="top-center" />
         <BrowserRouter>{children}</BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
